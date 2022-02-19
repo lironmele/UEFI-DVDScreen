@@ -1,0 +1,19 @@
+// /** @file
+// Sample UEFI Application Reference EDKII Module.
+//
+// This is a shell application that moves a blue rectangle across the screen, just like a DVD logo.
+//
+// Copyright (c) 2016, Intel Corporation. All rights reserved.<BR>
+//
+// SPDX-License-Identifier: BSD-2-Clause-Patent
+//
+// **/
+
+/=#
+
+#langdef en-US "English"
+
+#string STR_DVD_SCREEN_HELP_INFORMATION        #language en-US ""
+".TH DVDScreen 0 "Displays a moving DVD rectangle string."\r\n"
+".SH NAME\r\n"
+"DVDScreen application.\r\n"
